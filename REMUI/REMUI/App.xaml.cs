@@ -1,4 +1,5 @@
-﻿using System;
+﻿using REMUI.Pages;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace REMUI
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Orders();
         }
 
         protected override void OnStart()
